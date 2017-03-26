@@ -1,0 +1,20 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "Web Crawler for Shopping.com",
+  "main": "crawl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web-crawler",
+    "shopping.com"
+  ],
+  "author": "Mohit Agarwal",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.2.0",
+    "crawler": "git+https://github.com/bda-research/node-crawler.git",
+    "prompt": "^1.0.0"
+  }
+}
